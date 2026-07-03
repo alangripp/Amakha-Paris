@@ -1,0 +1,17 @@
+{
+  "name": "amakha-os",
+  "version": "1.0.0",
+  "description": "AMAKHA OS - Sistema de Gestão de Vendas com IA",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces",
+    "lint": "npm run lint --workspaces"
+  }
+}
